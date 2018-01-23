@@ -74,7 +74,7 @@ function playRound (playerSelection, computerSelection) {
 		++playerWins;
 	} else {
 		++computerWins;
-		footer.textContent = ("You loose! " + computerSelection + " beats " + player + "!");
+		footer.textContent = ("You lose! " + computerSelection + " beats " + player + "!");
 	}
 	playerPoints.textContent = playerWins;
 	computerPoints.textContent = computerWins;

@@ -1,0 +1,51 @@
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.computerDiv {
+	float: left;
+	width: 33.3%;
+}
+
+.inputDiv {
+	float: left;
+	width: 33.3%;
+
+}
+.playerDiv {
+	float: left;
+	width: 33.3%;
+
+}
+
+
+header {
+	font-size: 48px;
+	text-align: center;
+	color: orange ;
+}
+
+input {
+	min-width: 75px;
+	width: 30%;
+	height: 25px;
+	margin: 10px auto;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+label {
+	text-transform: uppercase;
+	display: block;
+	margin-top: 10%; 
+	font-size: 1em;
+	font-weight: bold;
+}
+
+footer p{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
